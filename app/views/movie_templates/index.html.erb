@@ -1,0 +1,16 @@
+<h1>List of movies</h1>
+
+<ul>
+  <% @list_of_movies.each do |movie| %>
+    <li>
+      <a href="/movies/<%= movie.id %>">
+        <img src="<%= movie.image %>" width="100">
+
+        <%= movie.title %> (<%= movie.year %>)
+        <% if movie.result == "won" %>
+          <strong>🏆</strong>
+        <% end %>
+      </a>
+    </li>
+  <% end %>
+</ul>

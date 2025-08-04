@@ -1,5 +1,5 @@
-# oscar-party-1-queries
+# oscar-party-2-queries
 
-Target: https://oscar-party-1-queries.matchthetarget.com
+Target: https://oscar-party-2-queries.matchthetarget.com
 
 Some rights reserved — see [LICENSE.txt](LICENSE.txt)
